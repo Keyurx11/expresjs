@@ -1,0 +1,3 @@
+# Project exclude paths
+/nodewebserver/node_modules/
+/nodewebservice/node_modules/

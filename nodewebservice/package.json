@@ -1,0 +1,23 @@
+{
+  "name": "nodewebservice",
+  "version": "1.0.0",
+  "description": "Node.js web service example",
+  "main": "service.js",
+  "scripts": {
+    "exec": "node service.js",  
+    "start-mount": "./node_modules/.bin/nodemon -L service.js",
+    "start": "./node_modules/.bin/nodemon service.js"
+  },
+  "author": "Mike Dacey",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "pg": "^8.7.1",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
