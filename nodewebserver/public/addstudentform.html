@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Add New Student Form</title>
+</head>
+<body>
+<form action="addstudent" method="POST">
+    <label for="name-textbox"> Name:</label>
+    <input id="name-textbox" name="name-textbox" type="text"/></br>
+
+    <label for="age-numberbox">Age (yrs):</label>
+    <input id="age-numberbox" name="age-numberbox" type="number" min="1" max="150" value="20"/></br>
+
+    <label for="course-textbox"> Course:</label>
+    <input id="course-textbox" name="course-textbox" type="text"/></br>
+
+    <input id="add-button" type="button" value="Add Student"/></br>
+    <input type="submit" value="Add Student Submit"/></br>
+
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="/js/addstudentform.js"></script>
+</body>
+</html>

@@ -1,18 +1,18 @@
 version: "3.6"
 services:
-#  webserver:
-#    build:
-#      context: .
-#      dockerfile: Dockerfile
-#      target: webserver
-#    image: node-a-webserver
-#    restart: always
-#    ports:
-#      - "81:80"
-#    networks:
-#      - dbnetwork
-#    volumes:
-#      - ./nodewebserver:/var/www/node
+  webserver:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: webserver
+    image: node-a-webserver
+    restart: always
+    ports:
+      - "81:80"
+    networks:
+      - dbnetwork
+    volumes:
+      - ./nodewebserver:/var/www/node
   webservice:
     build:
       context: .
